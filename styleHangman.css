@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+
+.group {
+    display: inline-block;
+    margin: 3px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group button {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 5px;
+    margin: 4px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.round {
+    border-radius: 40%;
+}
+
+.password {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: lightblue;
+    border-radius: 7px;
+}
+
+
